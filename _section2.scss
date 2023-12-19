@@ -1,46 +1,45 @@
-.section1{
+main{
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image:linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg');
-    .sectioncon{
+    background-color: #f4623a;
+    .main2con{
         width: 100%;
-        height: 800px;
+        height: 400px;
         display: flex;
-        gap: 10px;
-        justify-content: center;
         flex-direction: column;
         align-items: center;
-        
+        justify-content: center; 
+        gap: 20px;
         h1{
             font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
             color: white;
-            font-size: 60px;
-            width: 60%;
+            font-size: 35px;
+            width: 50%;
             text-align: center;
         }
         hr{
             width: 5%;
-            height: 0.2rem;
+            height: 0.4rem;
             margin: 1.5rem auto;
-            background-color: #f4623a;
+            background-color: #ffffff;
             opacity: 1;
             border: 0.01px solid black;
         }
         p{
             font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-            color: rgb(177, 177, 177);
-            font-size: 20px;
+            color: rgb(245, 242, 242);
+            font-size: 16px;
             width: 60%;
             text-align: center;
         }
         button{
             width: 15%;
             height: 40px;
-            background-color: $color1;
-            color: white;
+            background-color: white;
+            color: rgb(0, 0, 0);
             border: none;
             border-radius: 20px;
+            font-weight: 700;
+            font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
-    }
+       }
 }
